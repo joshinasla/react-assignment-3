@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  background-color: #616161;
+}
+.card {
+  margin: 20px;
+  color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline;
+}
+.card-image {
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(184, 184, 184, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
