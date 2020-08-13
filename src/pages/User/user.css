@@ -19,3 +19,13 @@ td:last-child,
 th:last-child {
   width: 100px;
 }
+h2 {
+  color: #293241;
+}
+.home {
+  text-decoration: none;
+  color: #3d5a80;
+}
+.emplooye-detail {
+  color: white;
+}

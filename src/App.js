@@ -30,12 +30,23 @@ export class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/gallery" component={Gallery} />
-          <Route exact path="/user" component={User} />
-        </Switch>
-      </BrowserRouter>
+      <div className="wrapper">
+        <BrowserRouter>
+          <div className="link-wrapper">
+            <Link to={`/gallery`} className="main-gallery">
+              GALLERY
+            </Link>
+            <Link to={`/user`} className="main-user">
+              EMPLOYEE DETAIL
+            </Link>
+          </div>
+          <Switch>
+            <Route exact path="/gallery" component={Gallery} />
+
+            <Route exact path="/user" component={User} />
+          </Switch>
+        </BrowserRouter>
+      </div>
     );
   }
 }

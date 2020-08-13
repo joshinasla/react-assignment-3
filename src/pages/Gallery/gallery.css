@@ -1,6 +1,5 @@
 .container {
   text-align: center;
-  background-color: #616161;
 }
 .card {
   margin: 20px;
@@ -11,12 +10,16 @@
 .card-image {
 }
 hr {
-  border: 0;
+  border: 0px;
   height: 1px;
   background-image: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0),
-    rgba(184, 184, 184, 0.75),
-    rgba(255, 255, 255, 0)
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
   );
+}
+h1 {
+  margin-top: 100px;
+  color: #293241;
 }

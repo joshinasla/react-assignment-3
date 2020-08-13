@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./gallery.css";
 
+import { Link } from "react-router-dom";
+
 class Gallery extends Component {
   constructor(props) {
     super(props);
@@ -40,6 +42,9 @@ class Gallery extends Component {
             </div>
           </div>
         ))}
+        <Link to="/" className="home">
+          RETURN TO HOME
+        </Link>
       </div>
     );
   }
