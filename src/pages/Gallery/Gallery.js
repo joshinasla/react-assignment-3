@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./gallery.css";
-
 import { Link } from "react-router-dom";
+
+import "./gallery.css";
 
 class Gallery extends Component {
   constructor(props) {
